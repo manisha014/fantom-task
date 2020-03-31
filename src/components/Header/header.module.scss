@@ -1,0 +1,41 @@
+// $primary-color:#3478ef;
+
+.header {
+    background-color: var(--primary);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+} 
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img
+{
+    width: 126px;
+}
+
+.mainNavigation {
+    list-style: none;
+    display: flex;
+    line-height: 2rem;
+}
+
+.mainNavigation li { 
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+}
+.mainNavigation li a {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+.mainNavigation li a:hover{
+    border-bottom: 1px solid white;
+}
