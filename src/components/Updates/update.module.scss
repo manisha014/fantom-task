@@ -1,0 +1,72 @@
+.outer {
+    overflow: hidden;
+    background-image: url(../../images/homePage/cards/Rectangle.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.updateForm {
+    max-width: 720px;
+    text-align: center;
+    margin: 150px auto;
+    position: relative;
+}
+
+.updateForm:before, .updateForm:after {
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100%;
+}
+
+.updateForm::before
+{
+    background: url(../../images/homePage/home/accent-down.svg);
+    left: -15%;
+    top: 110%;
+    background-repeat: no-repeat;
+}
+
+.updateForm::after {
+        background: url(../../images/homePage/home/accent-up.svg);
+        bottom: 100px;
+        left: 110%;
+        background-repeat: no-repeat;
+}
+
+.updateForm h3 {
+    font-weight: 600;
+    color: #2c3b57;
+    font-size: 42px;
+}
+
+.emailInput {
+    margin-top: 62px;
+}
+
+.updateForm input {
+    border-radius: 30px;
+    width: 78%;
+    border: 1px solid #426ed5;
+    background: #fff;
+    padding: 8px 17px;
+    font-weight: 500;
+}
+
+.updateForm button {
+    width: 100px;
+    border-radius: 30px;
+    background-color: #ff573b;
+    font-family: Work Sans,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .38px;
+    text-align: center;
+    color: #fff;
+    margin-left: -100px;
+    border: 1px #ff573b;
+    position: absolute;
+    top: 113px;
+    bottom: 0;
+}

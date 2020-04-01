@@ -1,0 +1,76 @@
+.card {
+    background: #3478ef;
+    max-width: 504px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: left;
+    min-width: 504px;
+    height: 322px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
+    cursor: pointer;
+}
+
+.img {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: right -10px center;
+    background-size: contain;
+    width: 504px;
+    right: 0;
+    bottom: 0;
+}
+
+.developer {
+    background-image: url(../../../images/homePage/cards/Oval.png);
+    height: 322px;
+    border-radius: 20px;
+    
+}
+
+.foundation {
+    background-image: url(../../../images/homePage/cards/Polygon.png);
+    height: 250px;
+    border-bottom-right-radius: 20px;
+}
+
+.card h3 {
+    color: #fff;
+    width: 80%;
+    margin: 0 0 20px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.13;
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: normal;
+    width: 335px;
+    line-height: 1.52;
+    color: #fff;
+    margin: 0 0 20px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 40px;
+    padding: 10px 15px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0 3px 4px 2px rgba(0,0,0,.08);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    color: #426ed5;
+}
