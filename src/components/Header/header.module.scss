@@ -11,9 +11,14 @@
     justify-content: space-between;
 }
 
+.logo {
+    line-height: 3rem;
+}
+
 .logo img
 {
     width: 126px;
+    cursor: pointer;
 }
 
 .mainNavigation {

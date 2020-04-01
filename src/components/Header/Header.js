@@ -6,7 +6,7 @@ const header=()=>{
     return(
         <header className={classes.header}>
             <Container className={classes.navigation}>
-                <h1 className={classes.logo}><span><img src={logo} alt="fantom logo"></img></span></h1>
+                <p className={classes.logo}><a href="/"><img src={logo} alt="fantom logo"></img></a></p>
                 <nav>
                     <ul className={classes.mainNavigation}>
                         <li><a href="/">Explorer</a></li>

@@ -1,0 +1,59 @@
+.feature {
+    margin-top: 20px;
+    background: #fbfbfc;
+    border-radius: 20px;
+    flex-basis: 30%;
+}
+
+.featureText {
+    width: 350px;
+    min-height: 327px;
+    padding: 50px 10px 20px 20px;
+}
+
+.featureText h4 {
+    font-size: 26px;
+    font-weight: bolder;
+    color: #2c3b57;
+}
+
+.featureText p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.featureIcon {
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0 0 20px 20px;
+}
+
+.featureIcon img {
+    width: 70px;
+    height: 130px;
+}
+
+.scalable {
+    background-color: #95b3f6;
+}
+
+.secure {
+    background-color: #59c5dd;
+}
+
+.fast {
+    background-color: #fe9d8b;
+}
+
+.connected {
+    background-color: #9ae99f;
+}
+
+.permissionless {
+    background-color: #e6fc88;
+}
+
+.openSource {
+    background-color: #b39cf0;
+}

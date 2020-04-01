@@ -1,0 +1,25 @@
+.offerDescription {
+    background: #fbfbfc;
+    padding: 50px 0;
+    border-radius: 20px;
+}
+
+.offerDescription h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #2c3b57;
+    font-weight: 600;
+}
+
+.offerDescription p 
+{
+    width: 45%;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.features {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
